@@ -1,0 +1,13 @@
+.bottomHereContainer {
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.zoomworkplace,
+.workplace,
+.bottomHereContainer {
+  padding: 3rem 0;
+}

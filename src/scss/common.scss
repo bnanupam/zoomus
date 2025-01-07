@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+.cardcontainer p {
+  margin-bottom: 0.5rem;
+}
+
+.info-icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  margin-top: 1rem;
+  a {
+    span {
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      vertical-align: middle;
+      background: url(../assets/social_icons_sprites.png) no-repeat center
+        center;
+      &.sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      &.wordpress {
+        background-position: 0 0;
+        &:hover {
+          background-position: 0 -36px;
+        }
+      }
+      &.twitter {
+        background-position: -90px 0;
+        &:hover {
+          background-position-y: -36px;
+        }
+      }
+      &.linkedin {
+        background-position: -45px 0;
+        &:hover {
+          background-position-y: -36px;
+        }
+      }
+      &.youtube-play {
+        background-position: -135px 0;
+        &:hover {
+          background-position-y: -36px;
+        }
+      }
+      &.facebook {
+        background-position: -180px 0;
+        &:hover {
+          background-position-y: -36px;
+        }
+      }
+      &.instagram {
+        background-position: -225px 0;
+        &:hover {
+          background-position-y: -36px;
+        }
+      }
+    }
+  }
+}
+footer {
+  li {
+    list-style-type: none;
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
