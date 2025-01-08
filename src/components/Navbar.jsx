@@ -28,10 +28,11 @@ export default function Navbar() {
             <div className="rightItem">
                 <ul className="nav-item d-flex list-unstyled gap-3">
                     <li>
-                        <button type="button" className="btn btn-outline-primary">Contact Sales</button>
+                        <button type="button" className="btn btn-outline-primary">
+                            Vertrieb kontaktieren</button>
                     </li>
                     <li>
-                        <button type="button" className="btn btn-primary">Sign Up free</button>
+                        <button type="button" className="btn btn-primary">Kostenlos anmelden</button>
                     </li>
                 </ul>
             </div>
